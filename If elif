@@ -1,0 +1,18 @@
+a=int(input("enter the amount"))
+if a>=1000:
+    D=a*10/100
+    a=a-D
+elif a>=2000:
+    D=a*20/100
+    a=a-D
+elif a>=3000:
+    D=a*30/100
+    a=a-D
+elif a>=5000:
+     D=a*40/100
+     a=a-D
+else:
+    print("no discount")
+    
+print("Discount=",D)
+print("Total Amount=",a)
