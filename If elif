@@ -1,18 +1,28 @@
-a=int(input("enter the amount"))
-if a>=1000:
-    D=a*10/100
-    a=a-D
-elif a>=2000:
-    D=a*20/100
-    a=a-D
-elif a>=3000:
-    D=a*30/100
-    a=a-D
-elif a>=5000:
-     D=a*40/100
-     a=a-D
+price=int(input("enter the amount"))
+if price>=1000:
+    D=price*10/100
+    print("offer=10%")
+    price=price-D
+elif price>=2000:
+    D=price*20/100
+    print("offer=20%")
+    price=price-D
+elif price>=3000:
+    D=price*30/100
+    print("offer=30")
+    price=price-D
+elif price>=5000:
+    D=price*40/100
+    print("offer=40%")
+    price=price-D
 else:
     print("no discount")
     
 print("Discount=",D)
-print("Total Amount=",a)
+print("Total Amount=",price)
+
+Output:
+Enter the amount1500
+Offer=10%
+Discount=150.0
+Total amount=1350.0
