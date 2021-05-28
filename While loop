@@ -1,0 +1,7 @@
+a=int(input("starting num"))
+b=int(input("ending num"))
+c=int(input("step count num")) 
+while a<=b:
+    print(a)
+    a=a+c
+    
