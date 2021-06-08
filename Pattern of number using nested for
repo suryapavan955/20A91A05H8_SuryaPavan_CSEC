@@ -1,0 +1,11 @@
+a=int(input())
+for i in range(a+1):
+    for j in range(i):
+        print (j,end=" ")
+    print("\n")
+
+Output:
+0
+0 1
+0 1 2 
+0 1 2 3....
